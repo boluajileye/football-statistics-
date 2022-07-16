@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/competitons/*"
+  to = "https://api.football-data.org/v4/:splat"
+  status = 200
+  force = true
+
+
+[[redirects]]
+  from = "/teams/*"
+  to = "https://api.football-data.org/v4/:splat"
+  status = 200
+  force = true
